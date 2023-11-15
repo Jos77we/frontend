@@ -17,7 +17,7 @@ const Login = () => {
 
   const [email, setEmail] = useState(" ");
   const [password, setPassword] = useState(" ");
-  const url = "http://localhost:5000/api/user/login";
+  const url = "https://sjhoe-game-data.onrender.com/api/user/login";
   const nav = useNavigate();
 
  
