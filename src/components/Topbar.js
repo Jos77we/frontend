@@ -1,13 +1,12 @@
 import React from 'react'
 import './Topbar.css'
+import { Link } from 'react-router-dom'
 
 const Topbar = () => {
   return (
     <>
     <div className='topbar-bar'>
-      <a href='/Dashboard'>
-        Upload
-      </a>
+    <Link to="/Dashboard" style={{color:"white"}}>Upload</Link>
     </div>
     </>
   )
