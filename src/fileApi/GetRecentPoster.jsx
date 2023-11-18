@@ -6,7 +6,7 @@ const GetRecentPoster = () => {
 
   const fetchMostRecentPoster = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/poster/recent');
+      const response = await axios.get('https://sjhoe-game-data.onrender.com/api/poster/recent');
       setPosterData(response.data);
     } catch (error) {
       console.error(error);

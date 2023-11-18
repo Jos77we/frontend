@@ -6,7 +6,7 @@ const GetRecentNewProduct = () => {
 
   const fetchMostRecentNewProduct = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/product/new-product/recent');
+      const response = await axios.get('https://sjhoe-game-data.onrender.com/product/new-product/recent');
       setPosterData(response.data);
     } catch (error) {
       console.error(error);

@@ -10,10 +10,10 @@ import GetRecentNewProduct from "../fileApi/GetRecentNewProduct";
 
 
 const UploadOutline = () => {
-  const url = "http://localhost:5000/api/poster";
-  const url1 = "http://localhost:5000/api/product";
-  const url2 = "http://localhost:5000/product/new-product"
-  const url3 = "http://localhost:5000/brand/new-logo"
+  const url = "https://sjhoe-game-data.onrender.com/api/poster";
+  const url1 = "https://sjhoe-game-data.onrender.com/api/product";
+  const url2 = "https://sjhoe-game-data.onrender.com/product/new-product"
+  const url3 = "https://sjhoe-game-data.onrender.com/brand/new-logo"
 
   const [image, setImage] = useState(null);
   const [title, setTitle] = useState(" ");

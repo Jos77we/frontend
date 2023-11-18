@@ -10,7 +10,7 @@ const UserList = () => {
       return;
     }
     setLoading(true);
-    axios.get('http://localhost:5000/api/user/user-list')
+    axios.get('https://sjhoe-game-data.onrender.com/api/user/user-list')
     .then((res) => {
         setData(res.data)
     })

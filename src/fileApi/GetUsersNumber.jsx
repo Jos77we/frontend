@@ -11,7 +11,7 @@ const GetUsersNumber = () => {
 
     const fetchUsersNum = async() =>{
       try {
-        const res = await axios.get("http://localhost:5000/api/user/count-users");
+        const res = await axios.get("https://sjhoe-game-data.onrender.com/api/user/count-users");
          setNum(res.data)
          console.log("The number is",res.data)
       } catch (error) {

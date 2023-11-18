@@ -12,7 +12,7 @@ const ImageDisplay = () => {
 
   const fetchDocuments = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/product/all-products');
+      const response = await axios.get('https://sjhoe-game-data.onrender.com/product/all-products');
       setDocuments(response.data);
     } catch (error) {
       console.error('Error fetching documents:', error);

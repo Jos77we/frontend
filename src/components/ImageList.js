@@ -12,7 +12,7 @@ const ImageList = () => {
     }
     setLoading(true);
     axios
-      .get("http://localhost:5000/api/images")
+      .get("https://sjhoe-game-data.onrender.com/api/images")
       .then((res) => {
         setData(res.data);
       })
@@ -27,7 +27,7 @@ const ImageList = () => {
     }
     setLoading(true);
     axios
-      .get("http://localhost:5000/api/product-images")
+      .get("https://sjhoe-game-data.onrender.com/product-images")
       .then((res) => {
         setList(res.data);
       })

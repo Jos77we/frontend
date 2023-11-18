@@ -6,7 +6,7 @@ const [total, setTotal] = useState([]);
 
 const fetchAllTotal = async () => {
     try {
-        const res = await axios.get("http://localhost:5000/product/total")
+        const res = await axios.get("https://sjhoe-game-data.onrender.com/product/total")
         setTotal(res.data)
         console.log(total)
      } catch (error) {
